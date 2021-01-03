@@ -48,10 +48,10 @@ RM = C:\Users\lucaa\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = I:\LUCA\Programming\JonasCLion
+CMAKE_SOURCE_DIR = C:\Users\lucaa\CLionProjects\JonasCLion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = I:\LUCA\Programming\JonasCLion\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\lucaa\CLionProjects\JonasCLion\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -78,14 +78,14 @@ clean: CMakeFiles\JonasCLion.dir\clean
 CMakeFiles\JonasCLion.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\JonasCLion.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\JonasCLion.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\JonasCLion.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\JonasCLion.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=I:\LUCA\Programming\JonasCLion\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target JonasCLion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\lucaa\CLionProjects\JonasCLion\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target JonasCLion"
 .PHONY : CMakeFiles\JonasCLion.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\JonasCLion.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start I:\LUCA\Programming\JonasCLion\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lucaa\CLionProjects\JonasCLion\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\JonasCLion.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start I:\LUCA\Programming\JonasCLion\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lucaa\CLionProjects\JonasCLion\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\JonasCLion.dir\rule
 
 # Convenience name for target.

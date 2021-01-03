@@ -3,4 +3,4 @@ project(JonasCLion C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(JonasCLion main.c Aufgabe1.c)
+add_executable(JonasCLion main.c)

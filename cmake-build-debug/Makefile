@@ -52,10 +52,10 @@ RM = C:\Users\lucaa\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = I:\LUCA\Programming\JonasCLion
+CMAKE_SOURCE_DIR = C:\Users\lucaa\CLionProjects\JonasCLion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = I:\LUCA\Programming\JonasCLion\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\lucaa\CLionProjects\JonasCLion\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start I:\LUCA\Programming\JonasCLion\cmake-build-debug\CMakeFiles I:\LUCA\Programming\JonasCLion\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lucaa\CLionProjects\JonasCLion\cmake-build-debug\CMakeFiles C:\Users\lucaa\CLionProjects\JonasCLion\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start I:\LUCA\Programming\JonasCLion\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lucaa\CLionProjects\JonasCLion\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,33 +127,6 @@ JonasCLion\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\JonasCLion.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\JonasCLion.dir\build
 .PHONY : JonasCLion\fast
 
-Aufgabe1.obj: Aufgabe1.c.obj
-
-.PHONY : Aufgabe1.obj
-
-# target to build an object file
-Aufgabe1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\JonasCLion.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\JonasCLion.dir\Aufgabe1.c.obj
-.PHONY : Aufgabe1.c.obj
-
-Aufgabe1.i: Aufgabe1.c.i
-
-.PHONY : Aufgabe1.i
-
-# target to preprocess a source file
-Aufgabe1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\JonasCLion.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\JonasCLion.dir\Aufgabe1.c.i
-.PHONY : Aufgabe1.c.i
-
-Aufgabe1.s: Aufgabe1.c.s
-
-.PHONY : Aufgabe1.s
-
-# target to generate assembly for a file
-Aufgabe1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\JonasCLion.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\JonasCLion.dir\Aufgabe1.c.s
-.PHONY : Aufgabe1.c.s
-
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -190,9 +163,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... JonasCLion
-	@echo ... Aufgabe1.obj
-	@echo ... Aufgabe1.i
-	@echo ... Aufgabe1.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

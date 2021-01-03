@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/JonasCLion.dir/Aufgabe1.c.obj"
   "CMakeFiles/JonasCLion.dir/main.c.obj"
   "JonasCLion.exe"
   "JonasCLion.exe.manifest"

@@ -1,4 +1,4 @@
-C:\Users\lucaa\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" I:\LUCA\Programming\JonasCLion
+C:\Users\lucaa\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.6682.181\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\lucaa\CLionProjects\JonasCLion
 -- Configuring done
 -- Generating done
--- Build files have been written to: I:/LUCA/Programming/JonasCLion/cmake-build-debug
+-- Build files have been written to: C:/Users/lucaa/CLionProjects/JonasCLion/cmake-build-debug
